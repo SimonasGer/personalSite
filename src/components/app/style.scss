@@ -1,0 +1,203 @@
+@keyframes linkTransition {
+    0%{
+        border-radius: 100%;
+        background-color: crimson;
+        scale: 1;
+    }
+    25%{
+        scale: 0;
+    }
+    50%{
+
+    }
+    75%{
+        scale: 0;
+    }
+    100%{
+        border-radius: 100%;
+    }
+}
+@keyframes imageTransition {
+    0%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+header{
+    background-color: crimson;
+    position: sticky;
+    top: 0;
+    height: 75px;
+    display: flex;
+    border-bottom: solid 1px gray;
+    h1{
+        color: white;
+        margin-left: 10px;
+    }
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 80vw;
+        gap: 30px;
+        h2{
+            font-size: 36pt;
+        }
+        article{
+            padding: 25p;
+            font-size: 16pt;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    }
+    .education{
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-size: 36pt;
+            text-align: center;
+        }
+        article{
+            border: solid crimson 1px;
+            border-radius: 10px;
+            margin: 50px;
+            box-shadow: 5px 5px 5px 5px gray;
+            h2{
+                font-size: 24pt;
+                margin: 10px;
+                text-align: left;
+            }
+            p{
+                margin: 10px;
+            }
+        }
+    }
+    .links{
+
+        h2{
+            font-size: 36pt;
+            text-align: center;
+        }
+        .linkName{
+            font-size: 24pt;
+        }
+        article{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            .back, .forth{
+                color: crimson;
+                font-size: 72pt;
+                font-weight: bold;
+                cursor: pointer;
+                text-shadow: 3px 3px 2px gray;
+            }
+            .back:hover, .forth:hover{
+                text-shadow: 1px 1px 1px gray;
+            }
+            .back:active, .forth:active{
+                text-shadow: none;
+            }
+            .logo{
+                animation-name: linkTransition;
+                animation-duration: 0.5s;
+                a{
+                    img{
+                        animation-name: imageTransition;
+                        animation-duration: 0.5s;
+                    }
+                }
+            }
+        }
+    }
+    .contacts{
+
+        form{
+            fieldset{
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                border-color: crimson;
+                gap: 25px;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 5px 5px 5px 5px gray;
+                legend{
+                    font-weight: bold;
+                    font-size: 16pt;
+                }
+                input{
+                    border-radius: 3px;
+                    width: 250px;
+                    height: 50px;
+                    border: solid 1px crimson;
+                    font-size: 11pt;
+                }
+                textarea{
+                    border-radius: 3px;
+                    width: 300px;
+                    height: 200px;
+                    border: solid 1px crimson;
+                }
+            }
+            button{
+                margin-top: 25px;
+                margin-bottom: 50px;
+                box-sizing: border-box;
+                width: 100%;
+                background-color: crimson;
+                height: 50px;
+                border: none;
+                border-radius: 10px;
+                color: white;
+                font-weight: bold;
+                box-shadow: 5px 5px 5px 5px gray;
+                cursor: pointer;
+            }
+            button:hover{
+                box-shadow: 2px 2px 2px 2px gray;
+            }
+            button:active{
+                box-shadow: none;
+            }
+        }
+    }
+}
+
+footer{
+    display: flex;
+    background-color: crimson;
+    justify-content: space-around;
+    align-items: center;
+    border-top: solid 1px gray;
+    h2{
+        color: white;
+    }
+    div{
+        p{
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
