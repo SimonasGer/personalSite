@@ -41,7 +41,7 @@ const Links = () => {
             <h2 className="linkName">{links[current].name}</h2>
             <article>
                 <div onClick={handleBack} className="back">{"<"}</div>
-                    {links.map((link) => link.name === links[current].name && <Link link = {link}/>)}
+                    {links.map((link) => link.name === links[current].name && <Link key = {link.name} link = {link}/>)}
                 <div onClick={handleForth} className="forth">{">"}</div>
             </article>
         </section>

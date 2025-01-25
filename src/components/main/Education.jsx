@@ -23,7 +23,7 @@ const Education = () => {
         <section className = "education">
             <h2>Education</h2>
             {education.map((place) => 
-                <article>
+                <article key = {place.name}>
                     <h2>{place.name}</h2>
                     <p>{place.time}</p>
                     <p>{place.comments}</p>
