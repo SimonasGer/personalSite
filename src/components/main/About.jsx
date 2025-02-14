@@ -5,7 +5,7 @@ const About = () => {
         <article>
             Hello! I'm Simonas, a passionate <strong>Full-Stack Developer</strong> with an insatiable curiosity for building seamless, interactive web experiences. 
             Though I may not have formal industry experience yet, my drive for mastering both front-end and back-end technologies is unwavering. 
-            I've developed a solid foundation in **<strong>CSS, HTML, JavaScript, React, and Node.js</strong>, and recently expanded my backend knowledge with <strong>ASP.NET Core</strong>. 
+            I've developed a solid foundation in <strong>CSS, HTML, JavaScript, React, and Node.js</strong>, and recently expanded my backend knowledge with <strong>ASP.NET Core</strong>. 
             Currently, I'm diving into <strong>PHP</strong> and preparing to explore <strong>Laravel</strong> to strengthen my development toolkit. 
             I love solving intricate problems, optimizing user experiences, and crafting visually stunning, high-performance applications.
         </article>

@@ -1,5 +1,6 @@
 body{
-    background: #2a1a38; // Dark Byzantium background for contrast
+    background: url("./bodyBackground.svg"); // Dark Byzantium background for contrast
+    background-size: cover;
     color: #EFDECD; // Almond text for readability
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
