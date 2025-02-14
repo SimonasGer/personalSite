@@ -11,6 +11,11 @@ const Links = () => {
             name: "Linkedin",
             url: "https://www.linkedin.com/in/simonas-gerulis-a72b68319",
             logo: "https://cdnlogo.com/logos/l/78/linkedin-icon.svg"
+        },
+        {
+            name: "Itch.io",
+            url: "https://brucewnd.itch.io/",
+            logo: "https://static-00.iconduck.com/assets.00/itch-io-icon-2048x2048-i6hzclad.png"
         }
 
     ]
@@ -36,7 +41,7 @@ const Links = () => {
 
     }
     return(
-        <section className="links">
+        <section id="links" className="links">
             <h2>My Links</h2>
             <h2 className="linkName">{links[current].name}</h2>
             <article>

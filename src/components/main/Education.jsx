@@ -20,7 +20,7 @@ const Education = () => {
         }
     ])
     return(
-        <section className = "education">
+        <section id="education" className = "education">
             <h2>Education</h2>
             {education.map((place) => 
                 <article key = {place.name}>
