@@ -23,7 +23,7 @@ const Contacts = () => {
         })
     }
     return(
-        <section className="contacts">
+        <section id="contacts" className="contacts">
             <form onSubmit={handleSubmit}>
                 <fieldset>
                     <legend>Contact Me</legend>
