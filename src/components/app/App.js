@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from '@vercel/analytics/react';
 import Header from "../header/Header";
 import Fun from "../fun/Fun";
 import Footer from "../footer/Footer";
