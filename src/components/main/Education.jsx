@@ -1,12 +1,6 @@
 const Education = () => {
     const education = ([
         {
-            name: "Eržvilko Gimnazija",
-            time: "2009 - 2021",
-            comments: "Primary and secondary school"
-
-        },
-        {
             name: "Vilnius University",
             time: "2021 - 2022",
             comments: "Studied physics for a year"

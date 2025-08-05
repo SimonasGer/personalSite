@@ -3,25 +3,22 @@ const About = () => {
     <section id="about" className="about">
         <h2>About Me</h2>
         <article>
-            Hello! I'm Simonas, a passionate <strong>Full-Stack Developer</strong> with an insatiable curiosity for building seamless, interactive web experiences. 
-            Though I may not have formal industry experience yet, my drive for mastering both front-end and back-end technologies is unwavering. 
-            I've developed a solid foundation in **<strong>CSS, HTML, JavaScript, React, and Node.js</strong>, and recently expanded my backend knowledge with <strong>ASP.NET Core</strong>. 
-            Currently, I'm diving into <strong>PHP</strong> and preparing to explore <strong>Laravel</strong> to strengthen my development toolkit. 
-            I love solving intricate problems, optimizing user experiences, and crafting visually stunning, high-performance applications.
+            Hey, I'm Simonas - a dedicated <strong>Full-Stack Developer</strong> who loves building clean, responsive, and interactive web applications. 
+            While I'm still early in my professional journey, I've built a strong foundation in <strong>HTML, CSS, JavaScript, React, and Node.js</strong>, 
+            and recently started expanding into <strong>ASP.NET Core</strong> and <strong>C#</strong> to deepen my backend skills.
+            I enjoy solving real problems, polishing user interfaces, and making things work better under the hood.
         </article>
         <article>
-            Beyond web development, I'm also an <strong>aspiring game developer</strong>, fascinated by dynamic mechanics, procedural systems, and immersive storytelling. 
-            I've been experimenting in the <strong>Unity</strong> game engine, integrating AI-driven gameplay, and developing mechanics that push creative boundaries. 
-            One of my recent projects, <strong><a href="https://brucewnd.itch.io/spaceblocks">SpaceBlocks</a></strong>, merges <strong>Tetris-inspired puzzle mechanics </strong>
-            with a modern, dynamic twist, showcasing my ability to craft engaging and strategic gameplay. 
-            Game development is where <strong>logic and artistry collide</strong>, and I'm eager to keep exploring this realm of creativity.
+            I'm also diving into <strong>game development</strong> - a natural fit for someone who enjoys both logic and creativity. 
+            Using <strong>Unity</strong>, I've been exploring procedural systems, game feel, and player-focused design.
+            One project I'm especially proud of is <strong><a href="https://brucewnd.itch.io/spaceblocks">SpaceBlocks</a></strong>, 
+            a puzzle game that mixes <strong>Tetris-inspired mechanics</strong> with fresh twists and strategic depth. 
+            For me, game dev is where code becomes play and I'm excited to keep pushing that boundary.
         </article>
         <article>
-            Feel free to explore my <strong>portfolio</strong>, where I showcase some of my favorite projects. 
-            If you'd like to collaborate, discuss ideas, or just say hello, don't hesitate to reach out—I'd love to connect!
+            Feel free to check out my <strong>portfolio</strong> to see what I've been working on.
         </article>
     </section>
-
     )
 }
 
